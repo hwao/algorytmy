@@ -90,3 +90,28 @@ Podejrzewam że da się poprawić kod w GO (prawdopodobnie powinien latac tam st
 **Go 1.2.1 linux/amd64**
 
 `time go run permutacja.go`
+
+## Podsumowanie
+
+11!
+
+PHP (z xdebug) `~ 4min`
+
+PHP (bez xdebug) `real 1m4.478s`
+
+HHVM `real 0m7.480s`
+
+Python 2.7.6 `real 0m54.487s`
+
+Python 3.4.0 `real 0m57.880s`
+
+PyPy 2.2.1 (Python 2.7.3) `real 0m8.618s`
+
+Go `real    0m0.822s`
+
+---
+
+PyPy 2.2.1 (Python 2.7.3) (11! recu-yeld) `real 1m48.563s`
+
+
+
