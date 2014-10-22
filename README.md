@@ -91,8 +91,11 @@ Podejrzewam że da się poprawić kod w GO (prawdopodobnie powinien latac tam st
 
 `time go run permutacja.go`
 
+**java 1.7 (OpenJDK 2.5.2)**
+
 `javac Permutacja.java`
-`time java Permutacja 11`
+
+`time java Permutacja 5`
 
 ## Podsumowanie
 
@@ -119,6 +122,12 @@ java 1.7 (OpenJDK 2.5.2) `real 0m0.418s`
 Go `real    0m7.400s`
 
 java 1.7 (OpenJDK 2.5.2) `real 0m4.259s`
+
+### 13!
+
+Go `real	1m24.301s`
+
+java 1.7 (OpenJDK 2.5.2) `real 0m45.097s`
 
 ---
 
