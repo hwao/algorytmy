@@ -91,9 +91,12 @@ Podejrzewam że da się poprawić kod w GO (prawdopodobnie powinien latac tam st
 
 `time go run permutacja.go`
 
+`javac Permutacja.java`
+`time java Permutacja 11`
+
 ## Podsumowanie
 
-11!
+### 11!
 
 PHP (z xdebug) `~ 4min`
 
@@ -108,6 +111,14 @@ Python 3.4.0 `real 0m57.880s`
 PyPy 2.2.1 (Python 2.7.3) `real 0m8.618s`
 
 Go `real    0m0.822s`
+
+java 1.7 (OpenJDK 2.5.2) `real 0m0.418s`
+
+### 12!
+
+Go `real    0m7.400s`
+
+java 1.7 (OpenJDK 2.5.2) `real 0m4.259s`
 
 ---
 
