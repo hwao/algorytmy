@@ -97,6 +97,13 @@ Podejrzewam że da się poprawić kod w GO (prawdopodobnie powinien latac tam st
 
 `time java Permutacja 5`
 
+**C**
+
+`gcc permutacja.c -o perC`
+
+`time ./perC`
+
+
 ## Podsumowanie
 
 ### 11!
@@ -118,6 +125,8 @@ Go `real    0m0.822s`
 java 1.7 (OpenJDK 2.5.2) `real 0m0.418s`
 
 ### 12!
+
+C `real    0m12.014s`
 
 Go `real    0m7.400s`
 
